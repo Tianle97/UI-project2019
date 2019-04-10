@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BallScript">
+    <Position X="3.25" Y="5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAACAAAEAEAJAAAAAAQEAERQACAFAgAiAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BallScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrickScript">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="8" Y="6.858" />
+        <Point X="8" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\BrickScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DelayedStartScript">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DelayedStartScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="13" Y="3.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAQBKAAAAAABAEIAAAkAAMAEBAAAAAEAAAAAYA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaddleScript">
+    <Position X="11" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAEAAABAAAAAAEEAAARQCABgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PaddleScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpScript">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PowerUpScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneGUI">
+    <Position X="1.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartMenu">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIBgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StartMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour">
+    <Position X="6.5" Y="3.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
