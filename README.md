@@ -42,8 +42,8 @@ The Myo armband recognises 5 pre-set gestures out of the box. They are:
 ![myo pose](https://github.com/TangqiFeng/K2048-UNITY-MYO/blob/img/myo%20pose.jpg)
 Playing the game Brick Breaker: </br>
 Pose like Fist: release the ball.</br>
-Pose like Wave in: make the paddle turn left.</br>
-Pose like Wave out: make the paddle turn left.</br>
+Pose like Wave in(Wave Left): make the paddle turn left.</br>
+Pose like Wave out(Wave Right): make the paddle turn right.</br>
 
 ## Architecture for the solution
 For reference to how to control the main characters of the game, I refer to the official C# game code released by myo.</br>
