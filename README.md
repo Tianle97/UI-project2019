@@ -13,7 +13,7 @@ This application is a local implementation of the application using gestures ([M
 ## About Brick Breaker Game
 Brick Breaker (platformer) is a Breakout clone in which the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. The paddle may move horizontally and is controlled with the BlackBerry's trackwheel, the computer's mouse or the touch of a finger (in the case of touchscreen). When all the bricks have been destroyed, the player advances to a new level. There are 34 levels. There are many versions of brick breaker, some in which you can shoot flaming fireballs or play with more than one ball if the player gets a power up.
 
-## what is myo armband
+## What is myo armband
 The Myo armband is a gesture recognition device worn on the forearm and manufactured by Thalmic Labs. The Myo enables the user to control technology wirelessly using various hand motions. It uses a set of electromyographic (EMG) sensors that sense electrical activity in the forearm muscles, combined with a gyroscope, accelerometer and magnetometer to recognize gestures. The Myo can be used to control video games, presentations, music and visual entertainment. It differs from the Leap Motion device as it is worn rather than a 3D array of cameras that sense motion in the environment.
 
 Please click[Myo Armband Connect](https://developer.thalmic.com/downloads) to download Myo Connect and get more details information.
@@ -83,12 +83,16 @@ if (thalmicMyo.pose != _lastPose) // let the ball release if gesture is fist
 }
 ```
 
-## Class diagram
-
+## Achtecture diagram
+![gamedesign](https://github.com/Tianle97/UI-project2019/blob/master/GameDesign.jpeg)
 
 ## Conclusion
 
 
 
+## Reference
++ Brick Breaker : https://en.wikipedia.org/wiki/Brick_Breaker </br>
++ Get start with Myo-armband : https://support.getmyo.com/hc/en-us/articles/203398347-Getting-started-with-your-Myo-armband </br>
++ Setup Myo package in unity : https://developerblog.myo.com/setting-myo-package-unity/ </br>
 
 
