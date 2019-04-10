@@ -83,7 +83,7 @@ if (thalmicMyo.pose != _lastPose) // let the ball release if gesture is fist
 }
 ```
 
-## Achtecture diagram
+## Game Design Diagram
 ![gamedesign](https://github.com/Tianle97/UI-project2019/blob/master/GameDesign.jpeg)
 
 ## Conclusion
