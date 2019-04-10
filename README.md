@@ -45,9 +45,48 @@ Pose like Fist: release the ball.</br>
 Pose like Wave in: make the paddle turn left.</br>
 Pose like Wave out: make the paddle turn left.</br>
 
+## Architecture for the solution
+For reference to how to control the main characters of the game, I refer to the official C# game code released by myo.</br>
+For example:make game paddle turn to left
+```c#
+ //make the paddlre turn left
+ if (Paddle.position.x > leftScreenEdge && thalmicMyo.pose == Pose.WaveIn)
+ {
+    // Vibrate the Myo armband when a FingersSpread is made.
+    thalmicMyo.Vibrate(VibrationType.Short);
+    Paddle.Translate(new Vector3(xm, 0, 0), Space.Self);
+    ExtendUnlockAndNotifyUserAction(thalmicMyo);
+ }
+```
+Turn to right:
+```c#
+//make the paddle turn right
+if (transform.position.x < rightScreenEdge && thalmicMyo.pose == Pose.WaveOut)
+{
+    // Vibrate the Myo armband when a FingersSpread is made.
+    thalmicMyo.Vibrate(VibrationType.Short);
+    Paddle.Translate(new Vector3(x, 0, 0), Space.Self);
+    ExtendUnlockAndNotifyUserAction(thalmicMyo);
+}
+```
+Release the Ball:
+```c#
+if (thalmicMyo.pose != _lastPose) // let the ball release if gesture is fist
+{
+    if ((Input.GetButtonDown("Jump")  || thalmicMyo.pose == Pose.Fist) && !inPlay)
+    {
+      // Vibrate the Myo armband when a FingersSpread is made.
+      thalmicMyo.Vibrate(VibrationType.Short);
+      inPlay = true;
+      rb.AddForce(Vector2.up * speed);
+    }
+}
+```
+
+## Class diagram
 
 
-
+## Conclusion
 
 
 
