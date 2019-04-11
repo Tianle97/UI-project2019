@@ -52,7 +52,7 @@ For example:make game paddle turn to left
  //make the paddlre turn left
  if (Paddle.position.x > leftScreenEdge && thalmicMyo.pose == Pose.WaveIn)
  {
-    // Vibrate the Myo armband when a FingersSpread is made.
+    // Vibrate the Myo armband when a Wave-out is made.
     thalmicMyo.Vibrate(VibrationType.Short);
     Paddle.Translate(new Vector3(xm, 0, 0), Space.Self);
     ExtendUnlockAndNotifyUserAction(thalmicMyo);
@@ -63,7 +63,7 @@ Turn to right:
 //make the paddle turn right
 if (transform.position.x < rightScreenEdge && thalmicMyo.pose == Pose.WaveOut)
 {
-    // Vibrate the Myo armband when a FingersSpread is made.
+    // Vibrate the Myo armband when a Wave-out is made.
     thalmicMyo.Vibrate(VibrationType.Short);
     Paddle.Translate(new Vector3(x, 0, 0), Space.Self);
     ExtendUnlockAndNotifyUserAction(thalmicMyo);
@@ -75,7 +75,7 @@ if (thalmicMyo.pose != _lastPose) // let the ball release if gesture is fist
 {
     if ((Input.GetButtonDown("Jump")  || thalmicMyo.pose == Pose.Fist) && !inPlay)
     {
-      // Vibrate the Myo armband when a FingersSpread is made.
+      // Vibrate the Myo armband when a Fist is made.
       thalmicMyo.Vibrate(VibrationType.Short);
       inPlay = true;
       rb.AddForce(Vector2.up * speed);
@@ -85,9 +85,6 @@ if (thalmicMyo.pose != _lastPose) // let the ball release if gesture is fist
 
 ## Game Design Diagram
 ![gamedesign](https://github.com/Tianle97/UI-project2019/blob/master/GameDesign.jpeg)
-
-## Conclusion
-
 
 
 ## Reference
