@@ -39,7 +39,7 @@ Please click[Myo Armband Connect](https://developer.thalmic.com/downloads) to do
 
 ## Gestures identified as appropriate for this application
 The Myo armband recognises 5 pre-set gestures out of the box. They are:
-![myo pose](https://github.com/TangqiFeng/K2048-UNITY-MYO/blob/img/myo%20pose.jpg)
+![myo pose](https://github.com/TangqiFeng/K2048-UNITY-MYO/raw/img/myo%20pose.jpg)
 Playing the game Brick Breaker: </br>
 Pose like Fist: release the ball.</br>
 Pose like Wave in(Wave Left): make the paddle turn left.</br>
