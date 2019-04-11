@@ -52,7 +52,7 @@ For example:make game paddle turn to left
  //make the paddlre turn left
  if (Paddle.position.x > leftScreenEdge && thalmicMyo.pose == Pose.WaveIn)
  {
-    // Vibrate the Myo armband when a Wave-out is made.
+    // Vibrate the Myo armband when a Wave-in is made.
     thalmicMyo.Vibrate(VibrationType.Short);
     Paddle.Translate(new Vector3(xm, 0, 0), Space.Self);
     ExtendUnlockAndNotifyUserAction(thalmicMyo);
